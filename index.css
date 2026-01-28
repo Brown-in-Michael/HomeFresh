@@ -328,3 +328,13 @@ footer{
     flex-direction: column;
     gap: 15px;
 }
+.thirddiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    ul{
+        font-family: "Poppins";
+        padding-left: 50px;
+    }
+}
