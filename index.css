@@ -6,6 +6,11 @@
     padding: 0%;
     
 }
+:root{
+    --main-color: #00CCAA;
+    --bg-color: #FAFFFE;
+    --texte-color: #002D26;
+}
 h1{
     font-family: "Krona One";
     font-size: 30px;
@@ -15,4 +20,22 @@ h2{
 }
 h3{
     font-family: "Krona One";
+}
+p{
+    font-family: "Poppins";
+}
+
+/* Navbar */
+nav{
+    display: flex;
+    border-color: var(--main-color);
+    border: 1px solid;
+    border-radius: 500px;
+    ul{
+        display: flex;
+    }
+    li{
+        list-style: none;
+    }
+    
 }
