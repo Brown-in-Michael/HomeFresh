@@ -277,3 +277,54 @@ header {
         font-size: 50px;
     }
 }
+
+/* CTA Styles */
+.CTA{
+    display: flex;
+    flex-direction: row-reverse;
+    div{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        a{
+            background-color: var(--main-color);
+            color: var(--bg-color);
+            text-decoration: none;
+            font-family: "Poppins";
+            padding: 10px 15px;
+            border-radius: 10px;
+        }
+    }
+}
+
+/* Footer */
+
+.logoText{
+    display: flex;
+
+    p{
+        width: 300px;
+        text-align: center;
+        padding-left: 20px;
+    }
+}
+footer{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px 0px;
+    strong{
+        font-family: "Poppins";
+    }
+    ul{
+        list-style: none;
+    }
+}
+.socials{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}

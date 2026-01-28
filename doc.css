@@ -13,6 +13,7 @@ h1 {
      font-size: 50px;
      font-family: "Krona One";
      color: #002D26;
+     color: #00CCAA;
 }
 
 h2 {
@@ -20,6 +21,7 @@ h2 {
      color: #2e3533;
      font-family: "Krona One";
      color: #002D26;
+     color: #00CCAA;
 }
 
 h3 {
@@ -28,6 +30,7 @@ h3 {
      font-size: 27px;
      font-family: "Krona One";
      color: #002D26;
+     color: #00CCAA;
 
 }
 
@@ -35,7 +38,7 @@ h4 {
      text-align: center;
      color: #2e3533;
      font-size: 25px;
-    color: #002D26;
+    color: #00CCAA;
 }
 
 body {
@@ -101,7 +104,7 @@ nav {
      }
 }
 
-main {}
+
 
 .objectif {
      p {
@@ -113,6 +116,7 @@ main {}
    p{
      text-align: center;
      font-size: 20px;
+     padding-top: 30px;
    }
      
 }
@@ -127,6 +131,10 @@ main {}
 }
 .vert{
      font-size: 20px;
+     padding: 20px;
+     p{
+          
+     }
 }
 .cardstechno{
       display: flex;
@@ -144,9 +152,14 @@ main {}
             gap: 30px;
             text-align: center;
         }
-}
+        span{
+          color: #00CCAA;
+          font-size: 20px;
+        }
+        }
 .fig{
      p{
           text-align: center;
+          font-size: 20px;
      }
 }
