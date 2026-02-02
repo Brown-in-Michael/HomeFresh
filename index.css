@@ -80,9 +80,6 @@ nav {
         list-style: none;
         font-family: "Krona One";
     }
-     justify-content: center;
-    align-items: center;
-    padding: 25px;
     a {
         color: var(--texte-color);
         text-decoration: none;
