@@ -50,7 +50,6 @@ p {
 body{
     background-color: var(--bg-color);
 }
-
 .padding-section {
     padding: 24px 24px;
 }
@@ -69,7 +68,8 @@ nav {
     backdrop-filter: blur(10px);
     position: fixed;
     top: 5%;
-    left: 25%;
+    left: 50%;
+    transform: translateX(-50%);
     z-index: 1;
 
     ul {
@@ -105,8 +105,8 @@ header {
     
 }
 #hero{
-    height: 450px;
-    padding: 55px 100px;
+    height: 110vh;
+    padding: 120px 50px 0px 50px;
     background-color: var(--head-bg-color);
 }
 .hero {
@@ -164,8 +164,6 @@ header {
 }
 
 .cardsProblem {
-    max-width: 700px;
-    margin: 1em auto;
     gap: 50px;
     display: flex;
     span{
@@ -174,7 +172,7 @@ header {
     }
     div {
         flex-direction: column;
-        width: 378px;
+        width: 478px;
         height: 329px;
         display: flex;
         justify-content: center;
@@ -203,6 +201,9 @@ header {
 .solution{
     position: relative;
     z-index: -1;
+}
+.nt{
+    padding-bottom: 40px;
 }
 .bg-blur {
     border-radius: 500px;
@@ -239,11 +240,11 @@ header {
         gap: 50px;
         div{
             width: 554px;
-            height: 250px;
-            background-color: var(--bg-color);
-            border: solid 1px var(--main-color);
-            border-radius: 20px;
-            box-shadow:#0000000a 0px 0px 5px 5px;
+            height: 550px;
+            /* background-color: var(--bg-color); */
+            border-right: solid 2px var(--main-color);
+            padding: 20px;
+            /* box-shadow:#0000000a 0px 0px 5px 5px; */
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -309,30 +310,30 @@ header {
 .border{
     background-color: var(--main-color);
     height: 5px;
-    width: 1258px;
+    width: 100%;
     position: absolute;
     z-index: -2;
-    top: 36%;
+    top: 30%;
     left: 0%;
     opacity: 40%;
 }
 .border1{
     background-color: var(--main-color);
     height: 5.5px;
-    width: 1258px;
+    width: 100%;
     position: absolute;
     z-index: -2;
-    top: 56%;
+    top: 53%;
     left: 0%;
     opacity: 40%;
 }
 .border2{
     background-color: var(--main-color);
     height: 6.4px;
-    width: 1258px;
+    width: 100%;
     position: absolute;
     z-index: -2;
-    top: 78%;
+    top: 76%;
     left: 0%;
     opacity: 40%;
 }
@@ -340,7 +341,8 @@ header {
     position: absolute;
     z-index: -2;
     opacity: 40%;
-    top: 39%;
+    top: 36%;
+    left: 5%;
     strong{
         color: var(--main-color);
         font-family: "Krona One";
@@ -352,7 +354,8 @@ header {
     position: absolute;
     z-index: -2;
     opacity: 40%;
-    top: 59.5%;
+    top: 57.5%;
+    left: 5%;
     strong{
         color: var(--main-color);
         font-family: "Krona One";
@@ -364,7 +367,8 @@ header {
     position: absolute;
     z-index: -2;
     opacity: 40%;
-    top: 82.7%;
+    top: 81.7%;
+    left: 5%;
     strong{
         color: var(--main-color);
         font-family: "Krona One";
