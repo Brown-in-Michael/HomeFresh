@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   let counterNumber = 0;
-  const target = 10000000;
+  const target = 1000000;
   let hasStarted = false;
 
   function startCounter() {
@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
     hasStarted = true;
 
     const updateCounter = setInterval(() => {
-      counterNumber += 50000;
+      counterNumber += 5000;
       counterEl.textContent = counterNumber.toLocaleString();
 
       if (counterNumber >= target) {
