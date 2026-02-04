@@ -130,6 +130,14 @@ header {
         align-items: center;
         justify-content: center;
         gap: 32px;
+        height: 100vh;
+    padding: 24px;
+    background-color: var(--head-bg-color);
+    .container{
+                display: flex;
+        align-items: center;
+        justify-content: space-between;
+    
     }
     .btn{
             margin-top: 24px;
@@ -159,6 +167,7 @@ header {
     gap: 32px;
         padding: 40px 24px;
             flex-wrap: wrap;
+        padding: 80px 24px;
     img {
         height: 100px;
         filter: invert();
@@ -413,6 +422,12 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.ctaText{
+    display: flex;
+    flex-direction: column;
     padding-left: 30px;
     padding-right: 30px;
 }

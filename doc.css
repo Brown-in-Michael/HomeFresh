@@ -107,6 +107,20 @@ header {
      justify-content: center;
      padding: 25px;
      background-color: var(--head-bg-color);
+     justify-content: space-between;
+     border: 2px solid #00ccaa45;
+     border-radius: 500px;
+     width: 700px;
+     padding-right: 40px;
+     padding-left: 20px;
+     background-color: #fdfdfd96;
+     box-shadow: 0 4px 15px #00000012;
+     backdrop-filter: blur(10px);
+     position: fixed;
+     top: 5%;
+     left: 50%;
+     transform: translateX(-50%);
+     z-index: 1;
 
 }
 
@@ -154,6 +168,10 @@ header {
           height: 200px;
           width: 300px;
      }
+}
+.prototype{
+     display: flex;
+     align-items: center;
 }
 
 #personna {
